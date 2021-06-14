@@ -1,0 +1,63 @@
+body{ 
+	padding: 0; 
+	margin: 0; 
+	background: rgb(240, 239, 239);
+	font-family: 'Roboto', sans-serif;
+} 
+
+
+ .box{ 
+ 	background: #fff;
+ 	width: 800px; 
+ 	padding: 48px;
+ 	margin: 16px auto;
+  }
+
+.header{ 
+	display: grid; 
+	grid-template-columns: 40% 60%;
+}
+
+.h1{
+	font-size: 40px;
+	color: tomato;
+
+}
+
+.h2{ 
+	font-size: 25px;
+	color: tomato;
+	margin-top: 40px;
+ }
+
+ .p{
+ 	font-size: 15px;
+ }
+
+ .h3{ 
+ 	font-size: 17px;
+ 	color: #b24531;
+  }
+
+ .column {
+  float: left;
+  width: 50%;
+
+}
+
+.column_right{
+	float:right;
+	margin-right: 90px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+
+
+
+
